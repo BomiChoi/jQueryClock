@@ -1,0 +1,75 @@
+#container {}
+#contents {}
+.clock {
+    width:400px;
+    height:400px;
+    background-color:#eee;
+    border:25px solid #000;
+    border-radius:50%;
+    margin:0 auto;
+    position:relative;
+}
+.clock .hr {
+    width:20px;
+    height:100px;
+    background-color:blue;
+    position:absolute;
+    right:calc(200px - 10px);
+    bottom:calc(200px - 10px);
+    transform-origin: 10px calc(100px - 10px);
+}
+.clock .min {
+    width:12px;
+    height:140px;
+    background-color:red;
+    position:absolute;
+    right:calc(200px - 6px);
+    bottom:calc(200px - 6px);
+    transform-origin: 6px calc(140px - 6px);
+}
+.clock .sec {
+    width:4px;
+    height:160px;
+    background-color:gold;
+    position:absolute;
+    right:calc(200px - 2px);
+    bottom:calc(200px - 2px);
+    transform-origin: 2px calc(160px - 2px);
+}
+.clock .center {
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-color:#000;
+    position:absolute;
+    right:calc(200px - 15px);
+    bottom:calc(200px - 15px);
+}
+.clock .num {
+    position:absolute;
+    width:50px;
+    height:220px;
+    right:calc(200px - 25px);
+    bottom:calc(200px - 25px);
+    transform-origin: 25px calc(220px - 25px);
+}
+.clock .num span{
+    display:block;
+    font-size:40px;
+    font-weight:bold;
+}
+.clock .num div {
+    width:4px;
+    height:20px;
+    background-color:#000;
+    margin:0 auto;
+}
+.clock .num .jquery{
+    font-size:16px;
+}
+
+.currentTime {
+    padding:20px;
+    font-size:30px;
+    font-weight:bold;
+}

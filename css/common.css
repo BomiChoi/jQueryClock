@@ -1,0 +1,20 @@
+/* reset */
+* {margin:0; padding:0;}
+
+/* common */
+body {}
+#wrapper {
+    text-align:center;
+    width:500px;
+    margin:0 auto;
+}
+
+#header {
+    height:120px;
+    line-height:120px;
+    font-size:30px;
+}
+
+#footer {
+    height:30px;
+}
